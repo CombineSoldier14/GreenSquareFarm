@@ -12,7 +12,7 @@ repo = Repo.clone_from("git@github.com:CombineSoldier14/GreenSquareFarm.git", lo
 update_file = "blank.txt"
 os.chdir("greensquarefarm")
 def webhook(message):
-    webhook = "https://discord.com/api/webhooks/1259264965274112080/sGRG6azweIELBZ4x4KwgjU4EepdBiCMPODAOcgU4AZYTziDBMX6cD-k_trOEhSLOMWBn"
+    webhook = "WEBHOOK_HERE"
     useWebhook = (webhook != None)
 
     if useWebhook:
